@@ -1,14 +1,13 @@
 body{
-	width: 400px;/*控制整个网页宽度*/
+	width: 70%;/*控制整个网页宽度*/
 	margin: 0 auto;/*控制整个网页左右居中*/
 	color: #fff;/*控制整个网页的颜色*/
 	padding-top: 90px;/*网页整体距离顶部90像素*/
-	background-image: url("../images/bg.jpg");/*设置背景图片，注意【../*】的目录层级/
+	background-image: url("../images/bg.jpg");/*设置背景图片，注意【../*】的目录层级*/
 }
 p{
-	text-align: center;/*控制段落文字整体居中*/
-	text-shadow:0.1em 0.1em 0.3em #333333;
+	text-indent: 2em;
 }
-h2{
-	text-shadow:0.1em 0.1em 0.3em #333333;/*控制文字的阴影投影距离和颜色*/
+h2,h3,h4,h5{
+	text-align: center;
 }
