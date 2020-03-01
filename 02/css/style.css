@@ -4,6 +4,7 @@ body{
 	color: #fff;/*控制整个网页的颜色*/
 	padding-top: 90px;/*网页整体距离顶部90像素*/
 	background-image: url("../images/bg.jpg");/*设置背景图片，注意【../*】的目录层级*/
+	background-repeat: no-repeat; /* 设置背景图片不重复，这里建议大家使用分辨率超过1920*1080的图片作为背景 */
 }
 p{
 	text-indent: 2em;/* 网页正文中所有的p标签都添加首航缩进2个字符 */
