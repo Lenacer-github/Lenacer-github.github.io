@@ -1,13 +1,14 @@
 body{
-	width: 70%;/*控制整个网页宽度*/
-	margin: 0 auto;/*控制整个网页左右居中*/
+	width: 20%;/*控制整个网页宽度占屏幕20%*/
+	margin: 0 auto;/*控制整个网页左右居中，左右为auto，上下为0*/
 	color: #fff;/*控制整个网页的颜色*/
 	padding-top: 90px;/*网页整体距离顶部90像素*/
 	background-image: url("../images/bg.jpg");/*设置背景图片，注意【../*】的目录层级*/
 }
 p{
-	text-indent: 2em;
+	text-indent: 2em;/* 网页正文中所有的p标签都添加首航缩进2个字符 */
+	text-align: justify;/* 网页正文中所有的p标签两端对齐 */
 }
 h2,h3,h4,h5{
-	text-align: center;
+	text-align: center; /* h2,h3,h4,h5 四个标签的文字都局中，中间切记用逗号隔开 */
 }
