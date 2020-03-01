@@ -1,0 +1,40 @@
+body{
+    background: #ebebeb;
+    font-family:微软雅黑;
+    font-size: 12px;
+}
+*{
+    padding: 0px;margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    background: #008ead;
+    width: 100%;
+    height: 400px;
+}
+.main{
+     background: #fff; 
+     margin: -100px auto; 
+     width: 400px; 
+     height: 200px;   
+     text-align: center;
+}
+.main_img{
+    width: 165px; 
+    height: 96px; 
+    position: absolute;
+}
+.main_ipt{
+    border: 1px solid #d3d3d3;
+    padding: 10px 10px;
+    width: 290px;
+    padding-left: 35px;
+    color: #ccc;
+}
+.main_login{
+    height: 50px; 
+    line-height: 50px; 
+    margin-top: 30px; 
+}

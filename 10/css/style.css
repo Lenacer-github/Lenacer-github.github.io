@@ -1,0 +1,57 @@
+body{
+   background:#166ec4; 
+   font-family: 微软雅黑;
+}
+
+
+.logo{
+    padding-top: 1em;
+}
+
+.notice {
+    background: url(../images/bg.jpg)no-repeat;
+    min-height:600px;
+    width: 32%;
+    margin: 5.6em auto 2em;
+}
+.notice-main {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.notice-main p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    width:80%;
+    margin: 0.5em auto 0.5em;
+}
+a.thanks {
+    font-size: 1.2em;
+    color: #4882ce;
+    font-weight: 600;
+    display: block;
+    margin: 0em 0em 1em 0em;
+}
+.notice-main input[type="submit"] {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 0.7em 2.5em;
+    background: #00ab00;
+    margin-bottom: 1.1em;
+}
+.notice-main input[type="submit"]:hover {
+	background:#4882ce;	
+}
+.contact-img {
+    float: left;
+    width: 16%;
+    padding-top: 1em;
+}
+.contact-text {
+    float: right;
+    width: 80%;
+    text-align: left;
+}
+.clear{
+	clear:both;
+}

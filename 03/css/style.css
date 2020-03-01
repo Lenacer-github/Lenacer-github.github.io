@@ -1,0 +1,15 @@
+body{
+	margin: 0 0;
+	color: #fff;
+	width: 100%;
+}
+#all{
+	width: 1024px;
+	margin: 0 auto;
+}
+.bodytext{
+	text-indent: 2em;
+}
+.footertext{
+	text-align: center;
+}

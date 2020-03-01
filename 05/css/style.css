@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#left{
+	background-image: url(../images/01-4.jpg);
+	height: 100%;
+	width: 480px;
+	float: left;
+
+}
+.left-logo{
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+
+
+
+
+#right{
+	float: right;
+
+}
+
+.right-top{
+	float: right;
+	height: 45px;
+	width: 520px;
+	margin-top: 20px;
+}
+.right-top ul{
+	list-style-type: none;
+}
+.right-top ul li {
+	display: inline;
+	width: 89px;
+	margin-right: 40px;
+	color: #888; 
+}
+.right-top-vip{
+	position: absolute;
+	padding-left: 30px;
+	padding-top: 5px;
+
+
+
+	}
+
+
+
+
+.right-content{
+	height: 820px;
+	width: 480px;
+	position: absolute;
+	top: 150px;
+	left: 900px;
+
+}
+.right-content-welcome{
+	font-size: 44px;
+}
+.right-content-everyday{
+	font-size: 28px;
+	float: left;
+	line-height: 30px;
+	padding-top: 18px;
+}
+.right-content-free{
+	font-size: 24px;
+		float: left;
+		color: #359eff;
+		padding-left: 50px;
+	line-height: 30px;
+		padding-top: 18px;
+
+
+}
+
+/*以下代码来自于实例4的内容*/
+.anniu{
+	width: 480px;
+	height: 48px;
+	margin-top:60px;
+	margin-bottom: 5px;
+	border: 0;
+	border-bottom:  1px solid #0084ff;
+
+
+}
+.zhuce{
+	width: 480px;
+	height: 54px;
+	background-color: #0084ff;
+	border: 0;
+	color: #fff;
+	font-size: 15px;
+	margin-top:20px;
+	border-radius: 10px;
+	margin-bottom:30px;
+}
+
+.right-content-copyright{
+	position: absolute;
+	top: 900px;
+	left: 950px;
+}
