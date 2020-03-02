@@ -21,13 +21,15 @@
 - 任务十一：利用Bootstrap对网页进行样式美化
 - 任务十二：基于Bootstrap进行响应式网站开发
 
-## 课程扩展资源
-
-《WEB前端设计》网络课程网址：https://course.xijing.edu.cn/#/courselist//course/5a9792af2f9acf873f979ca1/2d94<br>
-W3Cschool：https://www.w3cschool.cn/tutorial
 
 ## 更新历史
 
 - 2020年2月29日 更新实验1
 - 2020年3月01日 更新实验2：商学院网站即将上线页面
 - 2020年3月02日 更新实验3：商学院专业满意度问卷调查
+
+
+## 课程扩展资源
+
+《WEB前端设计》网络课程网址：https://course.xijing.edu.cn/#/courselist//course/5a9792af2f9acf873f979ca1/2d94<br>
+W3Cschool：https://www.w3cschool.cn/tutorial
