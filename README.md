@@ -31,5 +31,6 @@
 
 ## 课程扩展资源
 
+B站视频教程：http://bilibili.com
 《WEB前端设计》网络课程网址：https://course.xijing.edu.cn/#/courselist//course/5a9792af2f9acf873f979ca1/2d94<br>
 W3Cschool：https://www.w3cschool.cn/tutorial
