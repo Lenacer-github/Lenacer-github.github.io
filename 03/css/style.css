@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+}
+h1{
+    font-size: 19px;
+    text-align: center;
+    padding-top: 20px;
+}
+table{
+    background-color: #ffffff;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+}
+table tr{
+    height: 50px;
+}
+table tr td{
+    padding-left: 40px;
+}
+.new_button{
+    width: 90px;
+    background-color: #53a4f4;
+    color: #ffffff;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: 20px 30px 30px 30px;
+}
