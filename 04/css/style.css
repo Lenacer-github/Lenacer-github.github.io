@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.logo{
+    width: 252px;
+    height: 60px;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+.logo img{
+    width: 100%;
+}
+
+.sologan{
+    position: absolute;
+    top: 40%;
+    left:10%;
+}
+.sologan h1{
+    font-size: 50px;
+    color: #fff;
+    line-height: 10px;
+}
+.sologan p{
+    color: #fff;
+    font-size: 30px;
+}
+.footer{
+    color: #fff;
+    position: absolute;
+    bottom: 2%;
+    left: 5%
+}
+
+.right{
+    float: right;
+    position: absolute;
+    right: 6%;
+    top: 15%;
+    height: 532px;
+    width: 380px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    padding: 50px;
+}
+table,tr,td{
+    width: 100%;
+}
+
+tr{
+    height: 70px;
+}
+
+caption{
+    font-size: 40px;
+    text-align: left;
+    font-weight: 700;
+}
+label{
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    margin-right: 20px;
+    width: 20%;
+}
+input{
+    font-size: 14px;
+    color: #ccc;
+    height: 40px;
+    border: 1px solid #ccc;
+    width: 80%;
+    border-radius: 5px;
+}
+.input-mini{
+    color: #ccc;
+    border: 1px solid #ccc;
+    width: 45%;
+    border-radius: 5px;
+    margin-right: 5%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.get{
+    width: 30%;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    text-align: center;
+    height: 40px;
+}
+
+.resgit{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+
+}
+.check{
+    line-height: 14px;
+    width: 14px;
+    height: 14px;
+}
