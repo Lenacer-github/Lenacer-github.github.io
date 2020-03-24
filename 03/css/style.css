@@ -27,4 +27,5 @@ table tr td{
     border-radius: 20px;
     line-height: 40px;
     margin: 20px 30px 30px 30px;
+    border: 0;
 }
