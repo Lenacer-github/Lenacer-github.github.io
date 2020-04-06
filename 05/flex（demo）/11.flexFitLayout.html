@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>flex fit layout</title>
+	<style>
+		html, body{margin: 0;text-align: center;}
+		.head, .foot{line-height: 100px;background-color: #000;color: #fff;}
+		.side{background-color: yellow;}
+		.main{background-color: pink;}
+
+
+		html, body{height: 100%;}
+		body{display: flex;flex-flow: column;}
+		.head, .foot{height: 100px;}
+		.body{flex: 1;display: flex;}
+		.side{width: 200px;}
+		.main{flex: 1;}
+		/*.main{margin-left: 10px;}*/
+		/*.body{width: 960px;align-self: center;}*/	
+	</style>
+</head>
+<body>
+	<div class="head">head</div>
+	<div class="body">
+		<div class="side">side</div>
+		<div class="main">main</div>
+	</div>
+	<div class="foot">foot</div>
+</body>
+</html>

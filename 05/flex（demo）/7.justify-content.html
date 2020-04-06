@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>justity-content</title>
+	<style>
+		.container{margin: 20px;line-height: 40px;font-size: 20px;color: #fff;background-color: #963297;}
+		.item{margin: 10px;width: 100px;line-height: 40px;text-align: center;background-color: #c99702;}
+
+		
+		.container{display: flex;}
+		.fs{justify-content: flex-start;}
+		.fe{justify-content: flex-end;}
+		.c{justify-content: center;}
+		.sb{justify-content: space-between;}
+		.sa{justify-content: space-around;}
+
+		/*.container{flex-flow: column;width: 120px;height: 300px;}*/
+	</style>
+</head>
+<body>
+	<div class="container fs">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+	<div class="container fe">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+	<div class="container c">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+	<div class="container sb">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+	<div class="container sa">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+</body>
+</html>

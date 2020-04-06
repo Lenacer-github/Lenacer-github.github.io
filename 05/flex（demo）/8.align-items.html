@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>align-items</title>
+	<style>
+		.container{margin: 20px;line-height: 40px;font-size: 20px;color: #fff;background-color: #963297;}
+		.item{margin: 10px;width: 100px;line-height: 40px;text-align: center;background-color: #c99702;}
+
+		
+		.container{display: flex;}
+		.item1{line-height: 100px;}
+		.item2{line-height: 70px;}
+		.fs{align-items: flex-start;}
+		.fe{align-items: flex-end;}
+		.c{align-items: center;}
+		.s{align-items: stretch;}
+		.b{align-items: baseline;}
+
+		/*.container{flex-flow: column;}
+		.item1{width: 200px;}
+		.item2{width: 150px;}*/
+	</style>
+</head>
+<body>
+	<div class="container fs">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+	<div class="container fe">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+	<div class="container c">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+	<div class="container s">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+	<div class="container b">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+</body>
+</html>

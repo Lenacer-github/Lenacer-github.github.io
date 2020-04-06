@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>flex</title>
+	<style>
+		.container{background-color: #963297;}
+		.item{margin: 10px;line-height: 40px;text-align: center;color: #fff;font-size: 20px;background-color: #c99702;}
+
+		.container{display: flex;flex-flow: column;}
+		html, body, .container{height: 100%;}
+		.item{flex: 1 1 0;}
+		.item3{flex: 2;}
+	</style>
+</head>
+<body>
+	<div class="container">
+	  <div class="item item1">1</div>
+	  <div class="item item2">2</div>
+	  <div class="item item3">3</div>
+	</div>
+</body>
+</html>

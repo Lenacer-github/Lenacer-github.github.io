@@ -1,0 +1,238 @@
+/* 网站整体 */
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(../images/index.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 968px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: left;
+}
+/* 网站整体 */
+
+/* header头部 */
+.header{
+    height: 75px;
+    overflow: hidden;
+    margin: 0;
+}
+.header .logo{
+    float: left;
+    margin-top: 14px;
+    height: 44px;
+}
+.header .nav{
+    float: right;
+    padding-top: 21px;
+    margin: 0;
+}
+.header .nav li{
+    display: inline;
+}
+.header .nav a{
+    display: inline-block;
+    padding-left: 10px;
+    margin: 0 2px;
+    line-height: 33px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.header .nav a:hover{
+    font-weight: 700;
+    background-color: #000;
+    border-radius: 32px;
+    color: #fff;
+    padding-right: 10px;
+}
+.header .nav a:active{
+    font-weight: 700;
+    background-color: #000;
+    border-radius: 32px;
+    color: #fff;
+    padding-right: 10px;
+}
+/* header头部 */
+
+/* 正文框架 */
+
+.content{
+    background: none;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    margin-bottom: 100px;
+}
+.banner{
+    padding-top: 30px;
+    height: 424px;
+}
+.banner-text{
+    float: left;
+    padding-left: 20px;
+}
+.banner h1{
+    font-size: 22px;
+    font-weight: 400;
+}
+.banner p{
+    color: #999;
+}
+.banner button{
+    padding: 10px 50px;
+    border: none;
+    background-color: #609700;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.fuction{
+    display: block;
+}
+.fuction li{
+    height: 20px;
+    font-size: 12px;
+    color: #609700;
+}
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}  
+.swiper-slide img{
+    padding-left: 40px;
+
+}
+/* 正文第二部分 */
+.info{
+    height: 220px;
+}
+.info li{
+    float: left;
+    list-style-type:none;
+}
+.info h3{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+.info p{
+    font-size: 14px;
+    color: #999;
+    line-height: 11px;
+}
+.info a{
+    text-decoration: none;
+    color:#609700 ;
+}
+
+.download-web{
+    background-image: url(../images/download-item.png);
+    width: 216px;
+    height: 114px;
+}
+.download-mac{
+    background-image: url(../images/download-item.png);
+    background-position:-217px 0 ;
+    width: 216px;
+    height: 114px;
+}
+.download-win{
+    background-image: url(../images/download-item.png);
+    background-position: -436px 0;
+    background-repeat: no-repeat;
+    width: 216px;
+    height: 114px;
+}
+.news{
+    height: 220px;
+}
+.news li{
+    height: 30px;
+    font-size: 12px;
+    color: #609700;
+}
+.news span{
+    color: #333;
+    float: right;
+    text-align: left;
+    line-height: 20px;
+    
+}
+/* 正文第二部分 */
+
+
+
+/* footer区域 */
+.footer{
+    clear: both;
+    margin-top: 22px;
+    border-top: 1px solid #d4dadf;
+    font-size: 12px;
+    text-align: left;
+    color: #d8d8d8;
+    padding: 10px 0;
+}
+.footer-copyright{
+    float: left;
+}
+.language{
+    float: right;
+}
+/* footer区域 */
+
+
+
+/* 手机版本 */
+
+@media screen and (max-width:480px){
+    .swiper-container {
+      display:none;
+     }
+     .container{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0 10px;
+        text-align: left;
+    }
+    .header .logo{
+        float: left;
+        margin-top: 14px;
+        margin-left: 130px;
+        height: 44px;
+    }
+    .banner-text{
+        float: left;
+        padding-left: 60px;
+    }
+    .download{
+        width: 290px;
+        height: 600px;
+        margin-left: 50px;
+        margin: 0 atuo;
+        text-align: center;
+        
+    }
+    .news h3{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .footer-copyright{
+        float: none;
+        text-align: center;
+    }
+    .language{
+        display: none;
+    }
+
+   }

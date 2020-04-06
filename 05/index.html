@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信，是一种生活方式</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 此部分引用swiper https://www.swiper.com.cn/cdn/index.html -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
+    <script src="https://unpkg.com/swiper/js/swiper.js"> </script>  
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="">
+                <img class="logo" src="images/logo.png" alt="">
+            </a>
+            <ul class="nav">
+                <li><a>首页</a></li>
+                <li><a>帮助与反馈</a></li>
+                <li><a>公众平台</a></li>
+                <li><a>开放平台</a></li>
+                <li><a>微信支付</a></li>
+                <li><a>微信广告</a></li>
+                <li><a>企业微信</a></li>
+                <li><a>表情开平台</a></li>
+                <li><a>微信网页版</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="banner">
+                <div class="banner-text">
+                    <h1>微信，是一个生活方式</h1>
+                    <p>超过十亿人使用的手机应用</p>
+                    <p>支持发送语音短信、视频、图片和文字</p>
+                    <p>可以群聊，仅耗少量流量，适合大部分智能手机</p>
+                    <button>免费下载</button>
+                    <ul class="fuction">
+                        <li>忘记了微信账号或密码？</li>
+                        <li>自主接触登陆或者功能限制</li>
+                        <li>冻结或解冻微信账号</li>
+                    </ul>
+                </div>
+
+                <div class="banner-img">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/banner-mac.png" alt="" >
+                            </div>
+                            <div class="swiper-slide"><img src="images/banner-and.png" alt=""></div>
+                            <div class="swiper-slide"><img src="images/banner-win.png" alt=""></div>
+                        </div>
+                        <!-- 如果需要分页器 -->
+                        <div class="swiper-pagination"></div>
+                        
+                        <!-- 如果需要导航按钮 -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        
+                        <!-- 如果需要滚动条 -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="download">
+                    <ul>
+                        <li>
+                            <div class="download-web"></div>
+                            <h3>微信网页版</h3>
+                            <p>在浏览器使用微信</p>
+                            <a href="">了解更多</a>
+                        </li>
+                        <li>
+                            <div class="download-mac"></div>
+
+                            <h3>微信Mac版</h3>
+                            <p>极致简洁，迅捷沟通</p>
+                            <a href="">了解更多</a>
+                        </li>
+                        <li>
+                            <div class="download-win"></div>
+
+                            <h3>微信Windows版</h3>
+                            <p>让沟通更方便</p>
+                            <a href="">了解更多</a>
+                        </li>
+                    </ul>
+                 </div>
+                <div class="news">
+                    <h3>最新消息</h3>
+                    <ul>
+                        <li><span>04-02</span><a>微信 7.0.13 for Android 正式版发布</a></li>
+                        <li><span>04-01</span><a>微信 7.0.12 for iOS 正式版发布</a></li>
+                        <li><span>02-28</span><a>微信 2.3.30 for Mac 正式版发布</a></li>
+                        <li><span>01-19</span><a>微信 2.8.0 for Windows 正式版发布</a></li>
+                        <li><span>02-21</span><a>微信外部链接内容管理规范</a></li>
+                        <li><span>01-10</span><a>微信 2.8.0 for windowsphone 正式版发布</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>关于腾讯&nbsp; |&nbsp; 服务条款&nbsp; | &nbsp;使用规范&nbsp; | &nbsp;客服中心 &nbsp;| &nbsp;隐私保护指引</p>
+                <p>© 1998 - 2020 Tencent Inc. All Rights Reserved</p>
+
+            </div>
+
+            <div class="language">
+                <p>简体中文&nbsp; |&nbsp;繁体中文&nbsp; |&nbsp;English</p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+          loop: true, // 循环模式选项
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },
+          
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          
+          // 如果需要滚动条
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        })        
+        </script>
+
+    
+</body>
+</html>
