@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>微信，是一种生活方式</title>
     <link rel="stylesheet" href="css/style.css">
     <!-- 此部分引用swiper https://www.swiper.com.cn/cdn/index.html -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">  
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
-    <script src="https://unpkg.com/swiper/js/swiper.js"> </script>  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://unpkg.com/swiper/js/swiper.js"> </script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -49,18 +51,18 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="images/banner-mac.png" alt="" >
+                                <img src="images/banner-mac.png" alt="">
                             </div>
                             <div class="swiper-slide"><img src="images/banner-and.png" alt=""></div>
                             <div class="swiper-slide"><img src="images/banner-win.png" alt=""></div>
                         </div>
                         <!-- 如果需要分页器 -->
                         <div class="swiper-pagination"></div>
-                        
+
                         <!-- 如果需要导航按钮 -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
-                        
+
                         <!-- 如果需要滚动条 -->
                         <div class="swiper-scrollbar"></div>
                     </div>
@@ -92,7 +94,7 @@
                             <a href="">了解更多</a>
                         </li>
                     </ul>
-                 </div>
+                </div>
                 <div class="news">
                     <h3>最新消息</h3>
                     <ul>
@@ -127,28 +129,29 @@
 
 
 
-    <script>        
-        var mySwiper = new Swiper ('.swiper-container', {
-          loop: true, // 循环模式选项
-          
-          // 如果需要分页器
-          pagination: {
-            el: '.swiper-pagination',
-          },
-          
-          // 如果需要前进后退按钮
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          
-          // 如果需要滚动条
-          scrollbar: {
-            el: '.swiper-scrollbar',
-          },
-        })        
-        </script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true, // 循环模式选项
 
-    
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // 如果需要滚动条
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        })        
+    </script>
+
+
 </body>
+
 </html>
