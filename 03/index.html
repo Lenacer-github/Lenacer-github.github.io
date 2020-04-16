@@ -18,33 +18,54 @@
                 <tr>
                     <td><h1>商学院毕业生专业满意度调查</h1></td>
                 </tr>
+                <tr><td>学院信息</td></tr>
+                <tr>
+                    <td>
+                        <input type="text" name="name" readonly value="商学院">
+                    </td>
+                </tr>
 
                 <tr><td>1.您的姓名？</td></tr>
                 <tr>
                     <td>
-                        <input type="text" name="name">
+                        <input type="text" name="name" maxlength="4" value="张三">
                     </td>
                 </tr>
 
                 <tr><td>2.您的电子邮箱？</td></tr>
                 <tr>
                     <td>
-                        <input type="mail" name="e-mail">
+                        <input type="email" name="email">
                     </td>
-                </tr>                
-
-                <tr><td>3.您是大几的学生？</td></tr>
+                </tr>     
+                
+                <tr><td>3.您的学号？</td></tr>
                 <tr>
                     <td>
-                            <input type="radio" name="year" value="大一">大一
-                            <input type="radio" name="year" value="大二">大二
-                            <input type="radio" name="year" value="大三">大三
-                            <input type="radio" name="year" value="大四">大四
-                       
+                        <input type="number" name="idcard" placeholder="请输入您的学号信息">
+                    </td>
+                </tr>  
+                
+                <tr><td>4.您的校园门户密码</td></tr>
+                <tr>
+                    <td>
+                        <input type="password" name="password">
+                    </td>
+                </tr>     
+
+                <tr><td>5.您是大几的学生？</td></tr>
+                <tr>
+                    <td>
+                        <select name="" id="">
+                            <option value="本科一年级">本科一年级</option>
+                            <option value="本科二年级">本科二年级</option>
+                            <option value="本科三年级">本科三年级</option>
+                            <option value="本科四年级">本科四年级</option>
+                        </select>                       
                     </td>
                 </tr>       
 
-                <tr><td>4.您所学的专业是？</td></tr>
+                <tr><td>6.您所学的专业是？</td></tr>
                 <tr>
                     <td>
                             <input type="radio" name="major" value="电子商务">电子商务
@@ -55,7 +76,7 @@
                     </td>
                 </tr>
 
-                <tr><td>5.您最喜欢的教学方式？</td></tr>
+                <tr><td>7.您最喜欢的教学方式？</td></tr>
                 <tr>
                     <td>
                             <input type="checkbox" name="teach" value="雨课堂">雨课堂
@@ -65,20 +86,18 @@
                     </td>
                 </tr>  
 
-                <tr><td>6.您对商学院整体教学质量的评价：</td></tr>
+                <tr><td>8.您对商学院整体教学质量的评价：</td></tr>
                 <tr>
                     <td>
-                            <input type="radio" name="grade" value="非常好">非常好
-                            <input type="radio" name="grade" value="好">好
-                            <input type="radio" name="grade" value="一般">一般
-                            <input type="radio" name="grade" value="大四">差
+                        <input type="range" name = "salary" max = "10" min = "1" onchange="document.getElementById('show').innerHTML=value">
+                        <span id="show"></span>
                     </td>
                 </tr> 
 
-                <tr><td>7.您对商学院教学的意见：（必填）</td></tr>
+                <tr><td>9.您对商学院教学的意见：（必填）</td></tr>
                 <tr>
                     <td>
-                        <textarea name="suggest" required rows="10" cols="100"></textarea>
+                        <textarea name="suggest" required rows="5" cols="100"></textarea>
                     </td>
                 </tr>
 
