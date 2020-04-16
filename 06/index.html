@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>血型测试的网页</title>
-	<style type="text/css">
-		body{
-			background: #e2d3f8;
-			font-family: 微软雅黑;
-			text-align:center;	
-		}
-	</style>
-<script type="text/javascript" src="js/demo.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>血型性格测试网站</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/demo.js"></script>
 </head>
-<body background="#e2d3f8">
 
-<h1 align="center">欢迎进入血型性格测试网站</h1>
-<img src="images/type.jpg">
-<p align="center">
-<input style="font-size:20px;width: 99px;" type="button" value="进入测试" onclick="show_prompt()" > 
-<input style="font-size:20px;width: 100px;" id="alert_button" type="button" value="放弃测试" onclick="show_alert()" >  
-</p>
+<body>
+	<div class="container">
+		<div class="item">
+			<header>
+				<img src="images/header.jpg" alt="">
+				<h1>欢迎来到血型性格测试网站</h1>
+				<p>请点击下方的进入按钮，并输入正确的血型，进入测试。</p>
+				<button onclick="show_prompt()">进入</button>
+				<button onclick="warming()">放弃</button>
+			</header>
+		</div>
 
+		<div id="result" class="item">
+			<img src="images/type.jpg" alt="">
+		</div>
+
+	</div>
 </body>
+
 </html>
