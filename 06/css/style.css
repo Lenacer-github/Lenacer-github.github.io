@@ -6,7 +6,6 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    height: 100%;
 }
 .item{
     flex-grow: 1;
