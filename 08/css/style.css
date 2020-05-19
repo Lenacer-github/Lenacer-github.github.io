@@ -1,0 +1,80 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 100%;
+}
+header{
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.endTimeTile p {
+    font-size: 30px;
+    text-align: center;
+}
+.time{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+.time_mini{
+    display: inline;
+    margin: 0 20px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.4);
+    border-radius: 50px;
+}
+.time_mini span{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    width: 80px;
+}
+.time_mini span:nth-child(2){
+    font-size: 15px;
+}
+.contact{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact p{
+    font-size: 18px;
+}
+.contact input{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 70%;
+    margin: 15px 15px auto;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+.contact button{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #d8495c;
+    color: #fff;
+}
+footer{
+    position: fixed;
+    bottom: 20px;
+    left: 40%;
+}

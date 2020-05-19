@@ -1,0 +1,78 @@
+body{
+    height: 3000px;
+    
+}
+#container{
+    width: 590px;
+    height: 470px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.item{
+    position: absolute;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+#tabs{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+.tab{
+    float: left;
+    margin-right: 30px;
+    width: 6px;
+    height: 6px;
+    border: 3px solid rgba(184,178,182,.8);
+    border-radius: 50%;
+    background-color: #989196;
+    cursor: pointer;
+}
+.active{
+    background-color: #fff;
+    border-color: #999487;
+}
+.btn{
+    position:absolute;
+    top:50%;
+    margin-top:-35px;
+    width:40px;
+    height:70px;
+    color:#d6d3d5;
+    font-size:36px;
+    line-height:70px;
+    text-align:center;
+    cursor:pointer;
+}
+.prev{
+    position:absolute;
+    left:50px;
+    border-radius:5px;  
+}
+.next{
+    position:absolute;
+    right:50px;
+    border-radius:5px;  
+}
+.btn:hover{
+    background:rgba(127,120,125,0.8);
+    color: #fff;
+}
+ul,li{
+    list-style-type: none;
+}
+
+/* 返回顶部css样式 */
+
+#back{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+}
